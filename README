@@ -5,4 +5,3 @@ HOW TO SET UP:
 3. run the server, in the terminal, write "node server.js"
     - You should see: DB path:..., Database opened successfully, Server running on http://...
 
- yes   
