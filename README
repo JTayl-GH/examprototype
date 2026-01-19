@@ -1,0 +1,8 @@
+HOW TO SET UP:
+1. inside of the terminal in "server.js", write "npm init -y" this creates a package.json file.
+2. Install packages: express (Web Server), sqlite3 (Database), bcrypt (Password Hashing) and express-session (Login Sessions).
+    - Run the command in the terminal: "npm install express sqlite3 bcrypt express-session"
+3. run the server, in the terminal, write "node server.js"
+    - You should see: DB path:..., Database opened successfully, Server running on http://...
+
+    

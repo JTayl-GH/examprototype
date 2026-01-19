@@ -1,0 +1,34 @@
+Template for full exam consisting of a basic prototype of Task 2.
+
+Uses:
+JavaScript
+SQL
+SQLite3
+HTML
+CSS 
+
+Includes Pages:
+
+Landing Page (Main Page): with a Navigation Menu (May contain extra drop down features e.g. Accessibility)
+Contact Us Page: Uses an API for a map that pinpoints location of business site.
+Regristation & Login Page: Consistent Layout with backend enforcement and bcrypt hashing.
+Role-Based Access: User/Admin.
+
+Having An Accessible UI that can be changed to match the Clients Requests but overall fits a layout that matches other websites.#
+
+
+Has a README file that tells someone:
+what the project does,
+how to run it,
+what needs to be installed to run the project,
+how to effectively test the project.
+
+-- 
+~ Project overview
+~ Features list
+~ Software requirements
+~ Installation steps
+~ How to run the app
+~ How to test the app
+~ Default test login (if appropriate) 
+--
