@@ -13,6 +13,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     line-height: 1.6;
+    padding-top: 70px;
 }
 
 /* =========================
@@ -42,16 +43,26 @@ button:hover {
 }
 
 /* =========================
-   NAVBAR
+   FIXED TOP NAVBAR
    ========================= */
 
-.navbar {
+   .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 16px 32px;
+    background-color: #ffffff;
     border-bottom: 1px solid #000000;
+
+    z-index: 1000;
 }
+
 
 /* Logo */
 .logo {
@@ -79,6 +90,7 @@ button:hover {
     border: none;
     font-size: 16px;
     cursor: pointer;
+    padding: 0;
 }
 
 /* Dropdown content */
