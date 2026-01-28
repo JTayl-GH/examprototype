@@ -15,20 +15,47 @@
     
         <!-- Navigation Links -->
         <div class="nav-links">
-            <a href="register.html">Join Us</a>
-            <a href="login.html">Login</a>
+            <a href="/registration">Join Us</a>
+            <a href="/login">Login</a>
     
             <!-- Dropdown -->
             <div class="dropdown">
                 <button class="dropdown-btn">More ▾</button>
                 <div class="dropdown-content">
-                    <a href="contact.html">Contact Us</a>
-                    <a href="accessibility.html">Accessibility</a>
-                    <a href="help.html">Help & Support</a>
+                    <a href="/contact_us">Contact Us</a>
+                    <a href="/accessibility">Accessibility</a>
+                    <a href="/help">Help & Support</a>
                 </div>
             </div>
         </div>
     </nav>
+
+    <div class="login-wrapper">
+        <h1 class="login-title">Login</h1>
+
+        <form action="login" method="POST" class="login-form">
+            <div class="form-group">
+                <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+    
+            <div class="form-group">
+                <label for="password">Password <span aria-hidden="true">*</span></label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+
+                <a href="/forgot-password" class="forgot-link">Forgot Password?</a>
+            </div>
+
+    
+            <button type="submit" class="login-btn">Login</button>
+    
+            <p class="login-extra">
+                <a href="/">Return Home</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="/js/darkmode.js"></script>
     
 </body>
 </html>
