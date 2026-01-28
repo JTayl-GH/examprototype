@@ -40,7 +40,7 @@ app.get("/", (req, res) => res.sendFile(path.join(__dirname, "./pages/home.html"
 app.get("/login", (req, res) => res.sendFile(path.join(__dirname, "./pages/login.html")));
 app.get("/register", (req, res) => res.sendFile(path.join(__dirname, "./pages/register.html")));
 app.get("/forgot-password", (req, res) => res.sendFile(path.join(__dirname, "./pages/forgot-password.html")));
-
+app.get("/contact_us", (req, res) => res.sendFile(path.join(__dirname, "./pages/contact_us.html")));
 
 // Register user
 
